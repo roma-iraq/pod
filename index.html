@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pod</title>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/pod.css">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Wheight -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start NavBar -->
+    <nav class="navbar navbar-expand-lg p-0 position-absolute w-100">
+        <div class="container">
+            <a class="navbar-brand me-5 p-0" href="#">
+                <img src="img/logo.png" class="img-fluid" alt="logo">
+            </a>
+            <form class="d-flex flex-fill me-2 position-relative">
+                <input class="form-control me-3" type="search" placeholder="Search Podcast" aria-label="Search">
+                <button type="submit" class=" position-absolute look d-flex  justify-content-center align-items-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-lg-center
+                ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-uppercase" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-uppercase" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-uppercase mb-2" href="#">Listing Page</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="#">Detail Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn rounded-pill click">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+    <!-- Start Landding -->
+    <div class="landding">
+        <div class="container">
+            <div class="row">
+                <div class="co-12">
+                    <div class="landding-body position-absolute text-center text-white">
+                        <h1>Listen to Pod Talk</h1>
+                        <p>Listen it everywhere. Explore your fav podcasts.</p>
+                        <a href="#" class="btn rounded-pill click mt-3">Start Listening</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Lannding -->
+    <!-- Start Lastest -->
+    <div class="lastest dest">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mb-5">
+                    <div class="title">
+                        <h4>Lastest episodes</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-3 mb-lg-0">
+                    <div class="box d-flex">
+                        <div class="image position-relative h-25 d-flex flex-column">
+                            <img src="img/lastest-01.jpg" class="position-relative d-block" alt="">
+                            <a href="#" class="icon"><i class="fa-solid fa-play play"></i></a>
+                            <a href="#" class="rounded-pill sub mt-2 text-white text-center">Subscrip</a>
+                        </div>
+                        <div class="text">
+                            <div class="icon-01 d-flex mb-2">
+                                <div class="icon-02 d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-clock me-2 clock"></i>
+                                    <p class="mb-0">50 minutes</p>
+                                </div>
+                                <p class="mb-0 ms-4">Episode <span>15</span></p>
+                            </div>
+                            <h5 class="mb-2"><a href="#">Modern Vintage</a></h5>
+                            <div class="inside-img d-flex">
+                                <img src="img/lastest-011.jpg" class="img-fluid" alt="">
+                                <p class="ms-3">
+                                    Elsa
+                                    <img src="img/verified.png" class="img-fluid right" alt="">
+                                    <strong class="d-block fw-bold">Influencer</strong>
+                                </p>
+                            </div>
+                            <p class="last-p mb-3">Lorem Ipsum dolor sit amet consectetur</p>
+                            <ul class="d-flex p-0 mb-0">
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-headphones"></i>
+                                        <span class="text-uppercase">150k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="text-uppercase">42.5k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="text-uppercase">11k</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span class="text-uppercase">50k</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="box d-flex">
+                        <div class="image position-relative h-25 d-flex flex-column">
+                            <img src="img/lastest-02.jpg" class="position-relative d-block" alt="">
+                            <a href="#" class="icon"><i class="fa-solid fa-play play"></i></a>
+                            <a href="#" class="rounded-pill sub mt-2 text-white text-center">Subscrip</a>
+                        </div>
+                        <div class="text">
+                            <div class="icon-01 d-flex mb-2">
+                                <div class="icon-02 d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-clock me-2 clock"></i>
+                                    <p class="mb-0">50 minutes</p>
+                                </div>
+                                <p class="mb-0 ms-4">Episode <span>45</span></p>
+                            </div>
+                            <h5 class="mb-2"><a href="#">Daily Talk</a></h5>
+                            <div class="inside-img d-flex">
+                                <img src="img/lastest-022.jpg" class="img-fluid" alt="">
+                                <p class="ms-3">
+                                    Elsa
+                                    <strong class="d-block fw-bold">Influencer</strong>
+                                </p>
+                            </div>
+                            <p class="last-p mb-3">Lorem Ipsum dolor sit amet consectetur</p>
+                            <ul class="d-flex p-0 mb-0">
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-headphones"></i>
+                                        <span class="text-uppercase">140k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="text-uppercase">22.4k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="text-uppercase">16k</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span class="text-uppercase">46k</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Lastest -->
+    <!-- Start Topics -->
+    <div class="topics dest">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mb-5">
+                    <div class="title">
+                        <h4>Topics</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-3 mb-4 mb-lg-0">
+                    <div class="card">
+                        <img src="img/topics-01.jpg" class="img-fluid" alt="topics-01">
+                        <div class="card-body">
+                            <h5 class="card-title mb-1"><a href="#">Productivity</a></h5>
+                            <p class="card-text rounded-pill">50 Episodes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12  mt-lg-3 mb-4 mb-lg-0">
+                    <div class="card">
+                        <img src="img/topics-02.jpg" class="img-fluid" alt="topics-02">
+                        <div class="card-body">
+                            <h5 class="card-title mb-1"><a href="#">Technician</a></h5>
+                            <p class="card-text rounded-pill">12 Episodes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-3 mb-4 mb-lg-0">
+                    <div class="card">
+                        <img src="img/topics-03.jpg" class="img-fluid" alt="topics-03">
+                        <div class="card-body">
+                            <h5 class="card-title mb-1"><a href="#">Mindfullness</a></h5>
+                            <p class="card-text rounded-pill">35 Episodes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-lg-3 mb-4 mb-lg-0">
+                    <div class="card">
+                        <img src="img/topics-04.jpg" class="img-fluid" alt="topics-04">
+                        <div class="card-body">
+                            <h5 class="card-title mb-1"><a href="#">Cooking</a></h5>
+                            <p class="card-text rounded-pill">12 Episodes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Topics -->
+    <!-- Start Trending-->
+    <div class="trending dest">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mb-5">
+                    <div class="title">
+                        <h4>Trending episodes</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    <div class="box">
+                        <div class="image position-relative">
+                            <img src="img/trending-01.jpg" class="img-fluid img-titile" alt="">
+                        </div>
+                        <div class="text-body">
+                            <h5 class="mb-2"><a href="#">Vintage Show</a></h5>
+                            <div class="inside-img d-flex">
+                                <img src="img/lastest-011.jpg" class="img-fluid" alt="">
+                                <p class="ms-3">
+                                    Elsa
+                                    <strong class="d-block fw-bold">Influencer</strong>
+                                </p>
+                            </div>
+                            <p class="last-p mb-3">Lorem Ipsum dolor sit amet consectetur</p>
+                            <ul class="d-flex p-0 mb-0 justify-content-between">
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-headphones"></i>
+                                        <span class="text-uppercase">100k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="text-uppercase">2.5k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="text-uppercase">92k</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    <div class="box">
+                        <div class="image position-relative">
+                            <img src="img/trending-02.jpg" class="img-fluid  img-titile" alt="">
+                        </div>
+                        <div class="text-body">
+                            <h5 class="mb-2"><a href="#">Vintage Show</a></h5>
+                            <div class="inside-img d-flex">
+                                <img src="img/trending-022.jpg" class="img-fluid" alt="">
+                                <p class="ms-3">
+                                    Taylor
+                                    <img src="img/verified.png" class="img-fluid right" alt="">
+                                    <strong class="d-block fw-bold">Creator</strong>
+                                </p>
+                            </div>
+                            <p class="last-p mb-3">Lorem Ipsum dolor sit amet consectetur</p>
+                            <ul class="d-flex p-0 mb-0 justify-content-between">
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-headphones"></i>
+                                        <span class="text-uppercase">100k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="text-uppercase">2.5k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="text-uppercase">92k</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    <div class="box">
+                        <div class="image position-relative">
+                            <img src="img/trending-03.jpg" class="img-fluid img-titile" alt="">
+                        </div>
+                        <div class="text-body">
+                            <h5 class="mb-2"><a href="#">Vintage Show</a></h5>
+                            <div class="inside-img d-flex">
+                                <img src="img/trending-033.jpg" class="img-fluid" alt="">
+                                <p class="ms-3">
+                                    William
+                                    <img src="img/verified.png" class="img-fluid right" alt="">
+                                    <strong class="d-block fw-bold">Vlogger</strong>
+                                </p>
+                            </div>
+                            <p class="last-p mb-3">Lorem Ipsum dolor sit amet consectetur</p>
+                            <ul class="d-flex p-0 mb-0 justify-content-between">
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-headphones"></i>
+                                        <span class="text-uppercase">100k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="text-uppercase">2.5k</span>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="#">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <span class="text-uppercase">92k</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Trending-->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                    <div class="submit position-relative">
+                        <h6 class="position-relative text-center bg-white">Subscribe. Every weekly.</h6>
+                        <form action="">
+                            <input type="email" placeholder="Email Adress">
+                            <input type="submit" value="Subscribe" class="text-center text-white">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 mb-4 mb-md-0">
+                    <div class="contact text-white">
+                        <h6 class="mb-3 fw-bold">Contact</h6>
+                        <p class="mb-2 text-start">
+                            <strong class="me-2">Phone:</strong>
+                            010-020-0340
+                        </p>
+                        <p class="text-start">
+                            <strong class="me-2">Email:</strong>
+                            <a href="#" class="pb-1"> inquiry@pod.co</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="images text-white">
+                        <h6 class="mb-3 fw-bold">Download Mobile</h6>
+                        <di class="image d-flex flex-wrap">
+                            <a href="#">
+                                <img src="img/foot-01.png" class="img-fluid me-3 mb-2 mb-lg-0" alt="foot-01">
+                            </a>
+                            <a href="#">
+                                <img src="img/foot-02.png" class="img-fluid" alt="foot-02">
+                            </a>
+                            <div class="icons d-flex flex-column mt-4 w-100">
+                                <h6 class="mb-3">Social</h6>
+                                <ul class="social d-flex p-0">
+                                    <li>
+                                        <a href="#" class="text-white">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container pt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-3 col-12">
+                    <img src="img/logo.png" class="logo img-fluid h-auto" alt="logo">
+                </div>
+                <div class="col-lg-7 col-md-9 col-12">
+                    <ul class="links d-flex w-100 p-0 flex-wrap">
+                        <li class="me-4"><a href="#">Homepage</a></li>
+                        <li class="me-4"><a href="#">Browseepisodes</a></li>
+                        <li class="me-4"><a href="#">HelpCenter</a></li>
+                        <li><a href="#">ContactUs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <p class="text-white">Copyright &copy; 2036 Talk Pod Company</p>
+                    <p class="text-white">Design: <a href="#" class="pb-2">TemplateMo</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Start Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>
